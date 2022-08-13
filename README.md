@@ -2,8 +2,9 @@
 BSA(Bash Static Analyser) is a static analysis tool that identifies potential security vulnerabilities in bash scripts.
 
 ## Todo
-- Setup lexer and parser
-- fork bomb test
+- [ ] Select development language
+- [ ] Setup lexer and parser
+- [ ] fork bomb test
 ...
 
 ## License
