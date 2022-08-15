@@ -1,5 +1,5 @@
 # BSA
-BSA(Bash Static Analyser) is a cross-platform static analysis tool that identifies potential security vulnerabilities in bash scripts.
+**BSA(Bash Static Analyser)** is a cross-platform static analysis tool that identifies potential security vulnerabilities in bash scripts.
 
 BSA is a part of [ParchLinux](https://parchlinux.ir).
 
