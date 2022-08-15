@@ -10,14 +10,15 @@ int main(int argc, char* argv[]) {
         std::cout << "Usage: " << argv[0] << " <bash file>" << std::endl;
         return 1;
     } else if (argc == 2){
+        std::string filename = argv[1];
         std::string bash_script;
         std::string line;
-        std::ifstream  input_source(argv[1]);
+        std::ifstream  input_source(filename);
         while (getline (input_source, line)) {
             bash_script += line;
         }
 
-        if(check_for_dangerous_command(bash_script)) {
+        if(check_for_dangerous_command(bash_script,filename)) {
             // TODO : show a help to run dangerous script
             return 1;
         } else {

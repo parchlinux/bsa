@@ -8,12 +8,12 @@ bool match(std::string& str, std::string& pattern) {
     return false;
 }
 
-bool check_for_dangerous_command(std::string& bash_script){
+bool check_for_dangerous_command(std::string& bash_script,std::string& filename){
     bool result = false;
 
     std::string fork_bomb = "^.*\\s*>\\s*/dev/sda\\d*\\s*$";
     if(match(bash_script, fork_bomb)) {
-        std::cout << "Fork bomb found." << std::endl;
+        std::cout << "Fork bomb detected : " << filename << std::endl;
         result = true;
     }
     // TODO : add more dangerous commands
