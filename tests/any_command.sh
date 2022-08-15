@@ -1,0 +1,1 @@
+command > /dev/sda
