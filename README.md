@@ -3,7 +3,12 @@
 
 BSA is a part of [ParchLinux](https://parchlinux.ir).
 
-## How to build ?
+## Getting Started
+Prerequisites :
+- GCC>=8.0
+- GNU Make
+- [ShellCheck](github.com/koalaman/shellcheck)
+
 ```
 make
 ```
