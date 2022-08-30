@@ -3,18 +3,8 @@ name: CMake
 on:
   push:
     branches: [ "main" ]
-    paths: |
-      - src/**
-      - CmakeListes.txt
-      - tests/**
-      - .github/workflows/cmake.yml
   pull_request:
     branches: [ "main" ]
-    paths: |
-      - src/
-      - CmakeListes
-      - tests
-      - .github/workflows/cmake.yml
 
 env:
   # Customize the CMake build type here (Release, Debug, RelWithDebInfo, etc.)
