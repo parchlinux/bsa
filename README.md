@@ -23,8 +23,7 @@ Fork bomb detected: tests/fork_bomb.sh
 ```
 
 ## License
-
-This project is licensed under **"GPL V3"** license, read [the license](LICENSE) for more information.
+This project is licensed under **"GPL V3.0"** license, read [the license](LICENSE) for more information.
 
 ## About
 
